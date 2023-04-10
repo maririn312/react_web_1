@@ -1,0 +1,23 @@
+.menu  {
+    /* background-color: #2a3958; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    .item {
+        color: #000;
+        font-size: 14px;
+        font-family: PT Sans,sans-serif;
+        margin-right: 32px;
+        &:hover {
+            color: #da7409;
+        }
+    }
+    .logo {
+        color: blue;
+        font-size: 24px;
+        font-weight: bold;
+        margin-right: 40px;
+    }
+}

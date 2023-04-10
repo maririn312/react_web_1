@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>up_icon</title>
+    <g id="up_icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" fill="#09FFA7" cx="12" cy="12" r="9"></circle>
+        <g id="Group" transform="translate(9.000000, 8.000000)" fill="#FFFFFF">
+            <polygon id="Triangle" points="3 0 6 4 0 4"></polygon>
+            <rect id="Rectangle" x="2" y="4" width="2" height="5"></rect>
+        </g>
+    </g>
+</svg>

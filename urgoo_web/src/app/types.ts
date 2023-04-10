@@ -1,0 +1,21 @@
+// HTTP TYPES
+export const HEADER_AUTH = 'Authorization';
+export const HEADER_CONTENT = 'Content-Type';
+export const HEADER_FIREBASE_TOKEN = 'App-Firebase-Token';
+export const HEADER_DEVICE_OS = 'App-Os';
+export const HEADER_DEVICE_OS_VERSION = 'App-Os-Version';
+export const HEADER_APP_VERSION = 'App-App-Version';
+export const HEAD_URLENCODED = 'application/x-www-form-urlencoded';
+export const HEAD_JSON = 'application/json';
+export const HEAD_MULTIPART = 'multipart/form-data';
+export const HEAD_GRAPHQL = 'application/graphql';
+export const AUTH_BASIC = 'Basic';
+export const AUTH_BEARER = 'Bearer';
+export const GRANT_PASSWORD = 'password';
+export const GRAND_CLIENT_CREDENTIALS = 'client_credentials';
+export const GRANT_REFRESH_TOKEN = 'refresh_token';
+export const PARAM_SCOPE = 'scope';
+export const PARAM_USERNAME = 'username';
+export const PARAM_PASSWORD = 'password';
+export const PARAM_GRANT = 'grant_type';
+export const PARAM_REFRESH_TOKEN = 'refresh_token';

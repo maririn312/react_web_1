@@ -1,0 +1,10 @@
+.chat-container {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid blue;
+    .roomHistory {
+        width: 700px;
+        margin-top: 10px;
+        border: 1px solid gray;
+    }
+}

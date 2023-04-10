@@ -1,0 +1,25 @@
+.loginPage {
+    width: inherit;
+    min-height: 100vh;
+    background: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .loginBox {
+        width: 400px;
+        height: 600px;
+        padding: 20px;
+        background: white;
+        box-shadow: 0 0 4px 0 rgba(0,0,0,.08), 0 2px 4px 0 rgba(0,0,0,.12);
+        .loginInputArea {
+            margin: 18px 0px;
+        }
+        .actions {
+            display: flex;
+            justify-content: space-between;
+        }
+        .login {
+            float: right;
+        }
+    }
+}

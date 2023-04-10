@@ -1,0 +1,14 @@
+.userRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid gray;
+    margin: 10px;
+    max-width: 270px;
+}
+
+.userRow .userInfo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+}

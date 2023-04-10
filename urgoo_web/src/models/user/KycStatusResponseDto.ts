@@ -1,0 +1,29 @@
+export interface KycStatusResponseDto {
+  msg: string;
+  status: number;
+  firstName: string;
+  lastName: string;
+  balance: number;
+  urgxBalance: number;
+  chainAddress: string;
+  regNo: string;
+  phoneNo: string;
+  referralCode: string;
+  statusCode: number;
+  statusText: string;
+  idFrontConfirmedStatus: number;
+  idFrontConfirmedStatusText: string;
+  idBackConfirmedStatus: number;
+  idBackConfirmedStatusText: string;
+  selfieWithIdConfirmedStatus: number;
+  selfieWithIdConfirmedStatusText: string;
+  idFront: string;
+  idBack: string;
+  selfieWithIid: string;
+  email: string;
+  emailConfirmedFlag: boolean;
+  pwdChangeRequiredFlag: boolean;
+  nickname: string;
+  verifiedFlag: boolean;
+  configuredUrgooLoyaltyFlag: boolean;
+}

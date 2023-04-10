@@ -1,0 +1,23 @@
+.Header {
+    width: 100%;
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // background-color: #7409;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 8px 11px -6px;
+    .items {
+        width: 1080px;
+    }
+    .menus {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}

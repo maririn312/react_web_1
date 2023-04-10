@@ -1,0 +1,59 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px;
+    margin-top: 50px;
+    justify-content: center;
+    background-color: white;
+    border-top: 1px solid #d6d6d6;
+    .socials {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        .socialItem {
+            margin: 10px;
+        }
+    }
+    .footer-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        .authorPrivacy {
+            width: 1020px;
+            text-align: center;
+            font: 13px/24px "PT Sans Narrow", sans-serif;
+            color: rgba(0,0,0,.7);
+            padding-top: 20px;
+            margin-top: 10px;
+            border-top: 1px solid #d6d6d6;
+        }
+        .footer-group {
+            margin-left: 50px;
+            .title {
+                font: 16px/24px "PT Sans Narrow", sans-serif;
+                font-weight: bold;
+                color: rgba(0,0,0,.85);
+                margin-bottom: 15px;
+            }
+            .page {
+                font: 13px/24px "PT Sans Narrow", sans-serif;
+                color: rgba(0,0,0,.7);
+                margin: 3px 0px;
+                &:hover {
+                    color: #da7409!important;
+                }
+            }
+            .contact {
+                width: 250px;
+                // font: 13px Arial;
+                font: 13px/24px "PT Sans Narrow", sans-serif;
+                color: rgba(0,0,0,.7);
+                line-height: 1.5;
+                margin: 0px 0px;
+            }
+        }
+    }
+}

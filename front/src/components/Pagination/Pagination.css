@@ -1,0 +1,14 @@
+.pagination {
+    display: flex;
+    flex-direction: row;
+}
+    .pagination .page {
+        border: 1px solid gray;
+        margin: 5px;
+        padding: 5px;
+        cursor: pointer;
+    }
+    .pagination .selected {
+        background: blue;
+        color: white;
+    }

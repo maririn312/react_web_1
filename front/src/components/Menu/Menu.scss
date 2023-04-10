@@ -1,0 +1,25 @@
+.menus  {
+    width: 1000px;
+    height: 43px;
+    /* background-color: #2a3958; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .menu {
+        color: #000;
+        font-size: 14px;
+        font-family: PT Sans,sans-serif;
+        margin-right: 32px;
+        &:hover {
+            color: #da7409;
+        }
+    }
+    .first {
+        margin-left: 7px!important;
+    }
+    .homeIcon {
+        margin-top: 3px;
+        margin-right: 3px;
+        cursor: pointer;
+    }
+}
